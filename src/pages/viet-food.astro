@@ -1,19 +1,8 @@
 ---
-
+import Layout from "../layouts/BaseLayout.astro"
 ---
-
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Vietnamese Food Reccs</title>
-	</head>
-	<body>
-        <a href="/">Home</a>
-        <a href="/boba/">Boba</a>
-        <a href="/viet-food/">Vietnamese Food</a>
+<Layout title="Vietnamese Restaurant Reccs">
+	<main>
         <h1>My Vietnamese Food Restaurant Reccomendations</h1>
 		<p>These are still listed in no particular order, just whatever comes from the top of my head.</p>
         <ol>
@@ -38,5 +27,5 @@
 			have any specific reccommendations. When you sit down and order, you are served with a free pot of rice and you are able to get as many refills as you want on 
 			rice at no extra charge.
 		</p>
-    </body>
-</html>
+    </main>
+</Layout>
